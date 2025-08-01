@@ -4,8 +4,8 @@ class User:
         self.lastname = last_name
 
     def get_first_name(self):
-        print(self.firstname)
+        return self.firstname
     def get_last_name(self):
-        print(self.lastname)
+        return self.lastname
     def full_name(self):
-        print(self.firstname, self.lastname)
+        return f"{self.firstname} {self.lastname}"
