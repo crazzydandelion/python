@@ -5,7 +5,7 @@ from pages.login_page import LoginPage
 
 def test_complete_purchase():
     # Инициализация драйвера Firefox
-    driver = webdriver.Edge()
+    driver = webdriver.Firefox()
 
     try:
         # Шаг 1: Авторизация
